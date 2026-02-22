@@ -32,6 +32,30 @@ Data science etudes -- explorations of statistical concepts through code.
 - [Probably Overthinking It - Allen Downey (2023)](https://www.amazon.com/Probably-Overthinking-Questions-Statistical-Decisions/dp/0226822583) - Data-first statistical reasoning exposing common traps; all code in open notebooks
 - [Causal Inference in Python - Matheus Facure (O'Reilly, 2023)](https://www.oreilly.com/library/view/causal-inference-in/9781098140243/) - DiD, IV, synthetic control applied to industry problems
 
+### Dependence Measures Beyond Pearson/MI (New)
+- [Chatterjee's Xi Correlation in SciPy (scipy.stats.chatterjeexi, v1.15, 2024)](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chatterjeexi.html) - Rank-based asymmetric dependence measure detecting non-monotonic associations; now in SciPy
+- [KDist: Kernel and Distance Methods for Statistical Inference - Zhang (R, 2025)](https://github.com/zhangxiany-tamu/KDist) - R package unifying HSIC, distance correlation, energy statistics, change-point detection, and conditional independence tests
+
+### Information-Theoretic Approaches (New)
+- [Information-Theoretic Foundations for Machine Learning - Jeon et al. (arXiv, 2024)](https://arxiv.org/abs/2407.12288) - 200+ page monograph unifying generalization, meta-learning, and misspecification through Shannon information theory
+- [Mutual Information Estimation via Normalizing Flows - Butakov et al. (NeurIPS 2024)](https://arxiv.org/abs/2403.02187) - Maps data to tractable distribution for closed-form MI estimation with provable error bounds
+
+### Conformal Prediction (New)
+- [Introduction to Conformal Prediction with Python - Christoph Molnar (2023)](https://christophmolnar.com/books/conformal-prediction/) - Practical book with Jupyter notebooks on distribution-free uncertainty quantification for any ML model
+- [Conformal Prediction Notebooks - Angelopoulos & Bates (GitHub, 2024)](https://github.com/aangelopoulos/conformal-prediction) - Hands-on notebooks applying conformal prediction to ImageNet, medical, toxic text, and tumor segmentation
+
+### Books with Open Notebooks (New)
+- [Think Stats 3rd Edition - Allen Downey (O'Reilly, 2025)](https://allendowney.github.io/ThinkStats/) - Major rewrite entirely in Jupyter notebooks; EDA, distributions, hypothesis testing, regression
+- [Statistical Rethinking 2024 Course - Richard McElreath (GitHub, 2024)](https://github.com/rmcelreath/stat_rethinking_2024) - Full Bayesian modeling course with video lectures and code in R, Python/PyMC, Julia/Turing
+
+### Fat Tails Notebooks (New)
+- [Statistical Consequences of Fat Tails: Notebooks - MarcosCarreira (GitHub)](https://github.com/MarcosCarreira/StatisticalConsequencesOfFatTails) - Python/R/Mathematica notebooks reproducing every chapter of Taleb's Technical Incerto
+- [fattails: Python Notebooks for Fat-Tailed Statistics - FergM (GitHub)](https://github.com/FergM/fattails) - CLT failure under fat tails, S&P500 geometric averages, power-law diagnostics
+
+### Julia & Python Tools (New)
+- [Julia for Data Analysis - Bogumil Kaminski (Manning, 2023)](https://www.manning.com/books/julia-for-data-analysis) - Hands-on guide to DataFrames.jl, time series, and predictive models; most current practical Julia data science book
+- [dcor: Distance Correlation and Energy Statistics in Python - Ramos-Carreno & Torrecilla (SoftwareX, 2023)](https://github.com/vnmabus/dcor) - Efficient distance correlation, energy distance, and independence tests; natural extension of Pearson/MI comparison
+
 ## About
 
 This repository contains Jupyter notebooks that explore fundamental statistical concepts, with a focus on understanding how different measures capture relationships in data.
