@@ -2,6 +2,49 @@
 
 Data science etudes -- explorations of statistical concepts through code.
 
+## About
+
+This repository contains Jupyter notebooks that explore fundamental statistical concepts, with a focus on understanding how different measures capture relationships in data.
+
+## Notebooks
+
+### Pearson Correlation vs Mutual Information
+
+[`pearson_correlation_coefficient_vs_mutual_information.ipynb`](pearson_correlation_coefficient_vs_mutual_information.ipynb) - Compares how Pearson correlation and mutual information capture dependence in bivariate normal data, inspired by Nassim Taleb
+
+This notebook explores the relationship between Pearson correlation and mutual information:
+
+- **Pearson Correlation**: Shows how correlation coefficient (rho) scales non-linearly -- the perceptual gap between rho=0.5 and rho=0.9 is much larger than between rho=0 and rho=0.5
+- **Mutual Information**: Demonstrates how mutual information scales linearly with information content, providing a more intuitive measure of dependence
+- **Comparison**: Visualizes bivariate normal distributions across both metrics to illustrate their differences
+
+The notebook is based on [this tweet](https://twitter.com/nntaleb/status/1150457625877864450) by Nassim Taleb.
+
+## Requirements
+
+- Python 3.7+
+- Jupyter
+- NumPy
+- Matplotlib
+
+## Running
+
+1. Install dependencies:
+   ```bash
+   pip install jupyter numpy matplotlib
+   ```
+
+2. Start Jupyter:
+   ```bash
+   jupyter notebook
+   ```
+
+3. Open `pearson_correlation_coefficient_vs_mutual_information.ipynb` and run the cells.
+
+## License
+
+See LICENSE file for details.
+
 ## Not yet reviewed
 
 > These resources were recently found and have not been reviewed yet.
@@ -55,46 +98,3 @@ Data science etudes -- explorations of statistical concepts through code.
 ### Julia & Python Tools (New)
 - [Julia for Data Analysis - Bogumil Kaminski (Manning, 2023)](https://www.manning.com/books/julia-for-data-analysis) - Hands-on guide to DataFrames.jl, time series, and predictive models; most current practical Julia data science book
 - [dcor: Distance Correlation and Energy Statistics in Python - Ramos-Carreno & Torrecilla (SoftwareX, 2023)](https://github.com/vnmabus/dcor) - Efficient distance correlation, energy distance, and independence tests; natural extension of Pearson/MI comparison
-
-## About
-
-This repository contains Jupyter notebooks that explore fundamental statistical concepts, with a focus on understanding how different measures capture relationships in data.
-
-## Notebooks
-
-### Pearson Correlation vs Mutual Information
-
-[`pearson_correlation_coefficient_vs_mutual_information.ipynb`](pearson_correlation_coefficient_vs_mutual_information.ipynb) - Compares how Pearson correlation and mutual information capture dependence in bivariate normal data, inspired by Nassim Taleb
-
-This notebook explores the relationship between Pearson correlation and mutual information:
-
-- **Pearson Correlation**: Shows how correlation coefficient (rho) scales non-linearly -- the perceptual gap between rho=0.5 and rho=0.9 is much larger than between rho=0 and rho=0.5
-- **Mutual Information**: Demonstrates how mutual information scales linearly with information content, providing a more intuitive measure of dependence
-- **Comparison**: Visualizes bivariate normal distributions across both metrics to illustrate their differences
-
-The notebook is based on [this tweet](https://twitter.com/nntaleb/status/1150457625877864450) by Nassim Taleb.
-
-## Requirements
-
-- Python 3.7+
-- Jupyter
-- NumPy
-- Matplotlib
-
-## Running
-
-1. Install dependencies:
-   ```bash
-   pip install jupyter numpy matplotlib
-   ```
-
-2. Start Jupyter:
-   ```bash
-   jupyter notebook
-   ```
-
-3. Open `pearson_correlation_coefficient_vs_mutual_information.ipynb` and run the cells.
-
-## License
-
-See LICENSE file for details.
