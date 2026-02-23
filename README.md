@@ -2,6 +2,8 @@
 
 Data science etudes -- explorations of statistical concepts through code.
 
+Conformal prediction is the standout recent development: it provides distribution-free prediction intervals with guaranteed coverage -- no assumptions about the data-generating process. Chatterjee's Xi coefficient and distance correlation address a fundamental limitation of Pearson correlation: they detect arbitrary nonlinear associations, which matters for feature selection, independence testing, and understanding complex data relationships. The information-theoretic ML foundations connect Shannon entropy to generalization bounds and PAC-Bayes theory -- this is the theoretical frontier of understanding why deep learning works.
+
 ## About
 
 This repository contains Jupyter notebooks that explore fundamental statistical concepts, with a focus on understanding how different measures capture relationships in data.
